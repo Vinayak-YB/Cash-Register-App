@@ -1,6 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300&display=swap');
 .container{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 30vw;
+    height:3rem;
+    text-align: justify;
+    margin:auto;
+    font-size: large;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+}
+.check-button{
+    border-radius: 2rem;
+}
+.change-table,th,td{
+    
+    font-size: large;
+    margin: auto;
+    text-align: left;
 
+}
+th,td {
+    padding:12px;
+    text-align: center;
+    border:1px solid #f5c119;
+}
+
+*{
+    box-sizing: border-box;
+}
+.inp{
+    padding:0.5rem;
+    margin-bottom:1rem;
+}
+.chck-btn{
+    border-radius: 1rem;
+    padding:0.5rem;
+    font-size: large;
+    width:9rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color:#f5c119 ;
+    color:cornsilk;
+    font-weight: bold;
+}
+.heading{
+    background-color:#f5c119 ;
+    border-radius: 1rem;
+    padding:1rem;
+    color:cornsilk;
+    border-color: black;
 }
