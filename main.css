@@ -50,3 +50,39 @@ th,td {
     color:cornsilk;
     border-color: black;
 }
+.link{
+    text-decoration:none;
+    padding:0.5rem 1rem;
+    color: var(--gray);
+}
+.list-non-bullet{
+    list-style:none;
+}
+.footer{
+    margin-top: 41rem;
+    padding-top:1rem;
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius:2rem;;
+    text-align: center;
+    color:var(--primary-color);
+    
+}
+.footer .link{
+    color: #f5c119;
+}
+.footer .footer-header{
+    
+    font-size:1.2rem;
+
+}
+.footer .ul{
+    padding-inline-start:0px;
+    
+}
+.list-inline{
+    display:inline;
+    padding:0rem 1rem;
+    color:#767771;
+}
